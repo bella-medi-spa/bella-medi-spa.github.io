@@ -16,7 +16,10 @@ $on-laptop: 800px;
   }
 }
 
-$primary: pink;
+$primary: purple;
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
 
 @import "bootstrap/bootstrap";
 
