@@ -9,14 +9,23 @@ $content-width: 800px;
 $on-palm: 600px;
 $on-laptop: 800px;
 
-
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
   }
 }
 
-$primary: #FF91A4;
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+$primary: purple;
 
 @import "bootstrap/bootstrap";
 
