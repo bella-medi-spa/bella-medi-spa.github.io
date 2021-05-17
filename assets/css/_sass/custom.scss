@@ -1,0 +1,29 @@
+/* Add your custom styles here */
+// .btn-primary{
+//     background-color: #1d4367;
+//     border-color: #1d4367;
+//     color: #ffc00f;
+//     &:hover{
+//         background-color: #ffc00f;
+//         border-color: #ffc00f;
+//         color: #1d4367;
+//     }
+// }
+// .bg-primary{
+//     background-color: #1d4367 !important
+// }
+$fancy-font: 'Dancing Script', monospace;
+
+.header {
+    background: url("/assets/images/cover.jpeg") no-repeat center 80%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.display-4 {
+    font-weight: 500;
+    font-family: $fancy-font;
+    text-shadow: 0px 0px 0.3em #000000;
+}
