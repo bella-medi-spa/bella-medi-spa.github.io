@@ -22,15 +22,15 @@ title: Bella Medicial Spa
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A medispa in dover delaware. Just write something and I'll change this.
-baseurl: "https://bella-medi-spa.github.io/website/" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jekyll
 
 color-scheme: "#FF91A4" # the scheme can be any HEX code like "#00aa55"
 
 sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
+    sass_dir: /assets/css/_sass
+    style: compressed
 
 # Build settings
 theme: minima
