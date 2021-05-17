@@ -1,7 +1,7 @@
 $fancy-font: 'Dancing Script', monospace;
 
 .header {
-    background: url("/assets/images/cover.jpeg") no-repeat center 80%;
+    background: url("{{ site.baseurl }}/assets/images/cover.jpeg") no-repeat center 80%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
